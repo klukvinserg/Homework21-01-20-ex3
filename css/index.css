@@ -10,8 +10,8 @@ body {
 
 header {
     width: 100%;
-    height: 80px;;
-    background-color: rgb(26, 135, 155);
+    height: 80px;
+    ; background-color: rgb(26, 135, 155);
     color: white;
     text-transform: uppercase;
     display: flex;
@@ -26,15 +26,12 @@ header > p {
 }
 
 main {
-    /* width: 100%; */
     height: calc(100vh - 97px);
     background-color: rgb(85, 162, 175);
     padding: 15px;
-    /* position: relative;
-    top: 80px; */
     display: flex;
-     position: absolute;
-    top: 80px; 
+    position: absolute;
+    top: 80px;
     box-sizing: border-box;
 }
 
@@ -45,12 +42,6 @@ main {
     margin: 0 5px 0 5px;
     border-radius: 5px;
     overflow: auto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* text-align: center; */
-    /* display: block;
-    align-items: center; */
 }
 
 h3 {
@@ -59,28 +50,24 @@ h3 {
 
 .task {
     width: 95%;
-    height: 100px;
     background-color: rgb(238, 233, 233);
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 8px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .task-footer {
     width: 100%;
     height: 40px;
-    background-color: red;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
 }
 
 .task-footer-one {
-    /* width: 10px;
-    height: 20px; */
-    /* background-color: black; */
     display: flex;
     justify-content: flex-start;
     font-size: 15px;
@@ -89,12 +76,7 @@ h3 {
 
 .task-footer-one > img {
     height: 15px;
-}
-
-.task-footer-two {
-    /* width: 10px;
-    height: 20px; */
-    background-color: rgb(21, 163, 80);
+    margin-right: 3px;
 }
 
 img {
